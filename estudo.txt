@@ -1,0 +1,45 @@
+A propriedade Display muda o comportamento na tela.
+    1-INLINE
+        - Um elemento ao lado do outro (quebra de linha)
+        - Não altura e largura 
+        - A caixa tem comportamento de palavra
+        - quem define o tamanho é o conteúdo
+
+        obs:
+        algumas tags tem como padrão a propriedade inline
+    2- BLOCK
+        - oculpa a linha toda
+        - define altura e largura
+        - ñ tem comportamento de palavra
+        - quem define o tamanho da largura é o pai
+          Se muda o comportamento do pai muda também o do filho
+        - quem define o tamanho da largura é o conteudo
+    3- INLINE-BLOCK
+        - mesma linha
+        - definir largura e altura
+        - comportamento de palavra (posicionamento)
+        - tamanho define o conteudo (pode ser edtado)
+
+MARGIN e  PADDING
+    1- MARGIN = respiro externo
+    2- PADDING= respiro interno
+
+Forma resumida
+    padding:18px; (todos os lados)
+    padding:18px 12px; (18 T/B - 12 L/R)
+    padding:18px 20px 14px ; (18 T/B - 20 L/R - 14 B)
+    padding:18px 20px 14px 20px ; (para cada lados)
+
+a::before / pseudo-elemento
+
+
+a:houver / pseudo-classe
+    
+    a {
+    
+        transition: transform 100ms linear; //temp trasição
+    }
+
+    nav a:hover {
+        transform: scale(1.08); // crescer
+    }
